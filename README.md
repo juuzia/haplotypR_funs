@@ -6,6 +6,7 @@
 
 To use new functions source scripts
 ```{r}
-source("/location/deplexBySample_ext.R")
-source("/location/checkBarcode_ext.R")
+source("/location/deplexBySample_ext.R") # deplexSampleExtended()
+source("/location/checkBarcode_ext.R") # checkBarcode()
+source("/location/createHaplotypeTable_ext.R") # createFinalHaplotypTableExtended()
 ```
